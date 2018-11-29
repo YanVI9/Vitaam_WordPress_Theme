@@ -3,6 +3,11 @@
     src: url('../fonts/RobotoRegular.ttf');
 }
 
+@font-face {
+    font-family: 'Roboto Light';
+    src: url('../fonts/roboto-light_[allfont.ru].ttf'); 
+}
+
 html {
     font-family: Roboto, Arial;
 }
@@ -134,7 +139,18 @@ h2 {
 }
 
 .about__text-block p {
-    font-size: 20px;   
+    font-size: 20px; 
+    font-family: 'Roboto Light';  
+}
+
+.about__text-block p span {
+    font-family: Roboto;  
+}
+
+.about__text-block p a {
+    font-family: Roboto;
+    font-weight: bold;
+    color: #b22222;  
 }
 
 .break-after {
@@ -144,44 +160,54 @@ h2 {
 /*------- privilege------*/
 
 .privilege {
-    background-color: #ebebeb;
+    display: flex;
+    justify-content: center;    
 }
 
 .privilege__block {
-    max-width: 1171px;
-    margin: 0 auto;
+    flex-basis: 1171px;
     padding: 60px 0;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    margin-left: -37px;
+    margin-top: -37px;
 }
 
 .privilege__item {
-    background-position: 40px 0px;
+    background-position: 40px calc(100% - 58px);
     background-repeat: no-repeat;
-    padding-left: 120px;
-    padding-right: 40px;
-    flex-basis: 50%;
+    padding-left: 165px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 38px; 
+    flex-basis: 46%;
     box-sizing: border-box;
+    background-color: #ebebeb;
+    margin: 13px 0;
+    margin-left: 37px;
+    margin-top: 37px;
 }
 
+
+
 .privilege__item-micro {
-    background-image: url('../img/micro.png');
+    background-image: url('../img/expert.png');
     order: 1;
 }
 
 .privilege__item-box {
-    background-image: url('../img/box.png');
+    background-image: url('../img/usability.png');
     order: 3;
 }
 
 .privilege__item-tree {
-    background-image: url('../img/tree.png');
+    background-image: url('../img/secure.png');
     order: 2;
 }
 
 .privilege__item-apple {
-    background-image: url('../img/abble.png');
+    background-image: url('../img/newProduct.png');
     order: 4;
 }
 
