@@ -12,6 +12,11 @@ html {
     font-family: Roboto, Arial;
 }
 
+body {
+    margin: 0;
+    padding: 0;
+}
+
 h2 {
     color: #b22222;
     font-size: 36px;
@@ -169,7 +174,7 @@ h2 {
     padding: 60px 0;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
     margin-left: -37px;
     margin-top: -37px;
 }
@@ -264,3 +269,145 @@ h2 {
     font-size: 30px;
     color: #b22222;
 }
+
+/*---- Products ---*/
+
+.products {
+    max-width: 1171px;
+    margin: 0 auto;
+}
+
+.products__text {
+    font-size: 20px; 
+    font-family: 'Roboto Light';  
+    text-align: center;
+}
+
+.products__text span {
+    font-family: Roboto;  
+}
+
+.products__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.products__item {
+    padding: 10px;
+    
+}
+
+.products__item a {
+    background-image: url('../img/klyaksa.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    min-width: 360px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*---------- Partners ------------*/
+.partners {
+    max-width: 1171px;
+    margin: 0 auto;   
+}
+
+.partners__slider {
+    position: relative;
+    overflow: hidden;
+    height: 163px;
+    margin-top: 100px;
+    margin-bottom: 75px;
+}
+
+.slider__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.slider__item {
+    width: 163px;
+    height: 163px;
+    background-image: url('../img/partner__FitnessFood.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin: 0 30px;
+}
+
+/*-----feedback------*/
+
+.feedback {
+    max-width: 1171px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.feedback__container {
+    margin-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-left: -18px;
+    margin-top: -18px;
+}
+
+.feedback__item {
+    flex-basis: 567px;
+    height: 220px; /*временное правило*/
+    background-color: #ebebeb;
+    margin-left: 18px;
+    margin-top: 18px;
+    padding: 20px 38px;
+    box-sizing: border-box;
+    color: #505050;
+}
+
+.feedback__line1 {
+    display: flex;
+}
+
+.feedback__text {
+    flex-flow: 3;
+    padding-top: 7px;
+}
+
+.feedback__avatara {
+    flex-flow: 1;
+}
+
+.feedback__line2 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.feedback__line2 p {
+    text-align: right;
+}
+
+.feedback__more {
+    display: inline-block;
+    width: 218px;
+    height: 59px;
+    line-height: 59px;
+    text-align: center;
+    background-color: #b22222;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.feedback__more:hover {
+    background-color: #d82b2b;
+}
+
+/*---------------*/
