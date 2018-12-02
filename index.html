@@ -44,6 +44,23 @@
             <a href="#">Контакты</a>
         </div>
     </nav>
+    <nav class="mobile-menu">
+            <input type="checkbox" id="checkbox" class="mobile-menu__checkbox">
+            <label for="checkbox" class="mobile-menu__btn"><div class="mobile-menu__icon"></div></label>
+            <div class="mobile-menu__container">
+            <ul class="mobile-menu__list">
+                <li class="mobile-menu__item"><a href="#" class="mobile-menu__link">Vitaam</a></li>
+                <li class="mobile-menu__item"><a href="#" class="mobile-menu__link">Протеиновые смеси</a></li>
+                <li class="mobile-menu__item"><a href="#" class="mobile-menu__link">Где купить</a></li>
+                <li class="mobile-menu__item"><a href="#" class="mobile-menu__link">Рецепты</a></li>
+                <li class="mobile-menu__item"><a href="#" class="mobile-menu__link">Сырье</a></li>
+                <li class="mobile-menu__item"><a href="#" class="mobile-menu__link">Новым клиентам</a></li>
+                <li class="mobile-menu__item"><a href="#" class="mobile-menu__link">Дилерам</a></li>
+                <li class="mobile-menu__item"><a href="#" class="mobile-menu__link">Блог</a></li>
+                <li class="mobile-menu__item"><a href="#" class="mobile-menu__link">Контакты</a></li>
+            </ul>
+            </div>
+        </nav>
     <section class="banner">
         <div class="banner__text-block">
             <p>Правильное питание с Vitaam</p>
@@ -62,21 +79,36 @@
     </section>
     <section class="privilege">
         <div class="privilege__block">
-            <div class="privilege__item privilege__item-micro">
-                <h3 class="privilege__h3">Разработано совместно с экспертами</h3>
-                <p class="privilege__p">Смесь разработана совместно с НИИ питания РАМН (Россия) и консультантами-диетологами из США. Продукция сертифицирована.</p>
+            <div class="privilege__item">
+                <div class="privilege__iconBlock privilege__icon-micro"></div>
+                <div class="privilege__textBlock">
+                    <h3 class="privilege__h3">Разработано совместно с экспертами</h3>
+                    <p class="privilege__p">Смесь разработана совместно с НИИ питания РАМН (Россия) и консультантами-диетологами из США. Продукция сертифицирована.</p>
+                </div>
             </div>
-            <div class="privilege__item privilege__item-box">
-                <h3 class="privilege__h3">Удобная упаковка для хозяек и розничной продажи</h3>
-                <p class="privilege__p">Прямоугольная коробка со 100 граммами смеси. Удобно хранить, готовить без остатков, легко подбирать нужное количество жидкости.</p>
+            
+            <div class="privilege__item">
+                <div class="privilege__iconBlock privilege__icon-box"></div>
+                <div class="privilege__textBlock">
+                    <h3 class="privilege__h3">Удобная упаковка для хозяек и розничной продажи</h3>
+                    <p class="privilege__p">Прямоугольная коробка со 100 граммами смеси. Удобно хранить, готовить без остатков, легко подбирать нужное количество жидкости.</p>
+                </div>
             </div>
-            <div class="privilege__item privilege__item-tree">
-                <h3 class="privilege__h3">Безопасные компоненты со всего мира</h3>
-                <p class="privilege__p">В составе более 100 экологичных компонентов из Франции, Чили, Уругвая, Перу, Индии, США, и России. Каждая смесь индивидуальна.</p>
+
+            <div class="privilege__item">
+                <div class="privilege__iconBlock privilege__icon-tree"></div>
+                <div class="privilege__textBlock">
+                    <h3 class="privilege__h3">Безопасные компоненты со всего мира</h3>
+                    <p class="privilege__p">В составе более 100 экологичных компонентов из Франции, Чили, Уругвая, Перу, Индии, США, и России. Каждая смесь индивидуальна.</p>
+                </div>
             </div>
-            <div class="privilege__item privilege__item-apple">
-                <h3 class="privilege__h3">Новый продукт для создания низкокалорийной выпечки</h3>
-                <p class="privilege__p">Минимум калорий, максимум белка, пищевых волокон и пробиотиков для приготовления здоровой выпечки.</p>
+
+            <div class="privilege__item">
+                <div class="privilege__iconBlock privilege__icon-apple"></div>
+                <div class="privilege__textBlock">
+                    <h3 class="privilege__h3">Новый продукт для создания низкокалорийной выпечки</h3>
+                    <p class="privilege__p">Минимум калорий, максимум белка, пищевых волокон и пробиотиков для приготовления здоровой выпечки.</p>
+                </div>
             </div>
         </div>
     </section>
@@ -114,7 +146,7 @@
             <div class="products__item"><a href="#"><img src="img/pudding.png" alt="Пуддинг"></a></div>
         </div>
     </section>
-    <section class="pasrtners">
+    <section class="partners">
         <h2>Партнеры и отзывы о сухих протеиновых смесях для выпечки Vitaam </h2>
         <div class="partners__slider">
             <label for="#"></label>
@@ -194,7 +226,129 @@
         <a href="#" class="feedback__more">Отзывы полностью</a>
     </section>
     <section class="recepts">
-        
+        <h2>Популярные рецепты от Vitaam</h2>
+        <div class="recepts_box">
+            <div class="recepts_item">
+                <a href="#" class="recepts__link">
+                    <img src="img/maffins_recept.png" alt="" class="recepts__image">
+                    <div class="recepts_filling">
+                        <p class="recepts__text">Вкусные маффины без вреда для фигуры</p>
+                    </div>
+                </a>
+            </div>
+            <div class="recepts_item">
+                <a href="#" class="recepts__link recepts__link_pudding">
+                    <img src="img/pudding_recept.png" alt="" class="recepts__image">
+                    <div class="recepts_filling">
+                        <p class="recepts__text">Вкусный пуддинг без вреда для фигуры</p>
+                    </div>
+                </a>
+            </div>
+            <div class="recepts_item">
+                <a href="#" class="recepts__link">
+                    <img src="img/blins_recept.png" alt="" class="recepts__image">
+                    <div class="recepts_filling">
+                        <p class="recepts__text">Вкусные блины без вреда для фигуры</p>
+                    </div>
+                </a>
+            </div>
+            <div class="recepts_item">
+                <a href="#" class="recepts__link">
+                    <img src="img/puzza_recept.png" alt="" class="recepts__image">
+                    <div class="recepts_filling">
+                        <p class="recepts__text">Вкусная пицца без вреда для фигуры</p>
+                    </div>
+                </a>
+            </div>
+            <div class="recepts_item">
+                <a href="#" class="recepts__link">
+                    <img src="img/pech_recept.png" alt="" class="recepts__image">
+                    <div class="recepts_filling">
+                        <p class="recepts__text">Вкусное печенье без вреда для фигуры</p>
+                    </div>
+                </a>
+            </div>
+            <div class="recepts_item">
+                <a href="#" class="recepts__link">
+                    <img src="img/blins_recept-1.png" alt="" class="recepts__image">
+                    <div class="recepts_filling">
+                        <p class="recepts__text">Вкусные блины без вреда для фигуры</p>
+                    </div>
+                </a>
+            </div>
+        </div>
     </section>
+    <section class="contacts">
+        <div class="social__linkBox contacts__item">
+            <div class="linkBox__block linkBox__block_vk">
+                <img src="img/vk__logo.png" alt="VK" class="linkBox__img">
+                <a href="#" class="linkBox__link">Подписаться</a>
+            </div>
+            <div class="linkBox__block linkBox__block_insta">
+                <img src="img/instagram__logo.png" alt="INSTAGRAM" class="linkBox__img">
+                <a href="#" class="linkBox__link">Подписаться</a>
+            </div>
+        </div>
+        <div class="social__textBlock contacts__item">
+            <p class="textBlock__caption">Подписывайтесь на Инстаграм и группу ВКонтакте и покупайте со скидкой 10%</p>
+            <ul class="list">
+                <li class="list__item">Изучайте новые рецепты;</li>
+                <li class="list__item">Готовьте и экспериментируйте;</li>
+                <li class="list__item">Общайтесь;</li>
+                <li class="list__item">Присылайте свои рецепты со смесями для выпечки Vitaam и принимайте ценные подарки.</li>
+            </ul>
+        </div>
+        <form action="#" class="contacts__form contacts__item">
+            <input type="text" placeholder="Имя" name="name" class="form__name"><input type="text" placeholder="Телефон" name="phone" class="form__phone">
+            <textarea name="message" id="message" placeholder="Что вы хотите?"></textarea>
+            <div class="form__footer">
+                <div class="form__privacyPolicyBox">
+                    <input type="checkbox" name="privacyPolicy" id="privacyPolicy">
+                    <label for="privacyPolicy"></label>
+                    <a href="#">Политика конфиденциальности</a>
+                </div>
+                <button>Отправить</button>
+            </div>
+        </form>
+        <div class="contacts__phoneBox contacts__item">
+            <p class="phoneBox__number">8 800 200 25 25</p>
+            <p class="phoneBox__number">+7 495 128 27 85</p>
+            <p class="phoneBox__text">Звоните, оставляйте заявку через форму обратной связи или корзину. Менеджер свяжется с вами для уточнения заказа, ответит на вопросы и поможет провести сделку.  </p>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer__block">
+            <div class="footer__menu">
+                <div class="menu__block">
+                    <a href="#">Vitaam</a>
+                    <a href="#">Протеиновые смеси</a>
+                    <a href="#">Где купить</a>
+                    <a href="#">Рецепты</a>
+                </div>
+                <div class="menu__block">
+                    <a href="#">Новым клиентам</a>
+                    <a href="#">Дилерам</a>
+                    <a href="#">Блог</a>
+                    <a href="#">Контакты</a>
+                </div>
+            </div>
+            <div class="footer__centerBlock">
+                <div class="footer__socialLinks">
+                    <a href="#" class="footer__vk"><img src="img/vk_footer.png" alt=""></a>
+                    <a href="#" class="footer__fb"><img src="img/fb_footer.png" alt=""></a>
+                    <a href="#" class="footer__insta"><img src="img/insta_footer.png" alt=""></a>
+                </div>
+                <a href="#" class="footer__logo"><img src="img/logo_footer.png" alt=""></a>
+            </div>
+            <div class="footer__contacts">
+                <p><a href="tel:88002002525">8 800 200 25 25</a></p>
+                <p><a href="tel:+74951282785">+7 495 128 27 85</a></p>
+                <p><a href="mail:hello@vitaam.ru">hello@vitaam.ru</a></p>
+            </div>
+        </div>
+    </footer>
+    <div class="linkUp">
+        <a href="#"><span>НАВЕРХ</span></a>
+    </div>
 </body>
 </html>
