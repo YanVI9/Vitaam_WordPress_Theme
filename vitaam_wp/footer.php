@@ -17,11 +17,11 @@
             </div>
             <div class="footer__centerBlock">
                 <div class="footer__socialLinks">
-                    <a href="#" class="footer__vk"><img src="img/vk_footer.png" alt=""></a>
-                    <a href="#" class="footer__fb"><img src="img/fb_footer.png" alt=""></a>
-                    <a href="#" class="footer__insta"><img src="img/insta_footer.png" alt=""></a>
+                    <a href="#" class="footer__vk"><img src="<?php bloginfo('template_url'); ?>/images/vk_footer.png" alt=""></a>
+                    <a href="#" class="footer__fb"><img src="<?php bloginfo('template_url'); ?>/images/fb_footer.png" alt=""></a>
+                    <a href="#" class="footer__insta"><img src="<?php bloginfo('template_url'); ?>/images/insta_footer.png" alt=""></a>
                 </div>
-                <a href="#" class="footer__logo"><img src="img/logo_footer.png" alt=""></a>
+                <a href="#" class="footer__logo"><img src="<?php bloginfo('template_url'); ?>/images/logo_footer.png" alt=""></a>
             </div>
             <div class="footer__contacts">
                 <p><a href="tel:88002002525">8 800 200 25 25</a></p>
